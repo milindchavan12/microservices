@@ -2,7 +2,7 @@
 
 The word **Micro** refers to the scope of Service Functionality and not the lines of code. 
 
-Th word **Service** is independently deployable component in the *bounded context*.
+And the word **Service** is independently deployable component in the *bounded context*.
 
 Now a formal definition :
 
@@ -13,4 +13,3 @@ Now a formal definition :
 - Independently deployable
 - Organized around business capabilities.
 
-A MicroService build around the specific business capability, which can be independently dpeloyed. We call that *Bounded Context*. Each MicroService does One thing and does it good.
