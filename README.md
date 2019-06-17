@@ -13,3 +13,7 @@ Now a formal definition :
 - Independently deployable
 - Organized around business capabilities.
 
+## Service Registry:
+A service registry is a phone book of services with their locations, letting clients look up services by their logical names. The first thing our microservices have to do is self registration. This means that they need to register the network location on startup, and lately deregister on shutdown. When making a request to a service, the client needs first to discover the location of a service instance by querying the registry. And then it can invoke the needed microservice. 
+
+Famous service registries are Eureka, Zookeeper, or Consul
