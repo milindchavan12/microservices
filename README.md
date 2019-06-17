@@ -18,4 +18,4 @@ A service registry is a phone book of services with their locations, letting cli
 
 Famous service registries are Eureka, Zookeeper, or Consul
 
-![img text](https://)
+![img text](https://github.com/milindchavan12/microservices/blob/master/ServiceRegistry.png)
